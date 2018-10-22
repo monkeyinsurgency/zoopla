@@ -1,0 +1,49 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Zoopla tech test",
+  "main": "search.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Jason Slade",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "json-loader": "^0.5.7",
+    "next": "^7.0.1",
+    "prop-types": "latest",
+    "query-string": "^6.2.0",
+    "react": "^16.5.2",
+    "react-bootstrap": "^1.0.0-beta.1",
+    "react-currency-format": "^1.0.0",
+    "react-dom": "^16.5.2",
+    "react-jss": "^8.6.1",
+    "react-query-params": "^1.0.8",
+    "styled-jsx": "latest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.5.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
+  }
+}
