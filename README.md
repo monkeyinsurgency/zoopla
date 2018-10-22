@@ -30,6 +30,9 @@ app/coverage/lcov-report/index.html
 * search results are keyboard accessible via up and down arrow keys.  Currently it applies a class to the focussed result.
 * search form autofocuses on load and is submittable via keyboard
 * `N11` (or `n11`) is the only valid postcode to search on.  This checks against `area` attribute of the mock data.
+* Responsive layout was put in place for medium and large breakpoints.  The stock Bootstrap handles smaller screens fairly 
+well out the box in this instance.  This could obviously be taken further, but I felt it demonstrated an understanding of 
+the concept of responsive front-end sufficiently and I focused more on testing. 
  
 
 ## Personal notes
